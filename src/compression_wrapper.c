@@ -26,12 +26,12 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>
-#include <unistd.h>
 #include <zlib.h>
 #include <bzlib.h>
 #include <lzma.h>
 #ifdef WITH_ZCHUNK
 #include <zck.h>
+#include <unistd.h>
 #endif  // WITH_ZCHUNK
 #include "error.h"
 #include "compression_wrapper.h"
